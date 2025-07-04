@@ -17,20 +17,19 @@ logging:
 server:
   port: 8080
 
-environment:
-  name: ${ENVIRONMENT}
+#environment:
+  #name: ${ENVIRONMENT}
 
 client:
-  issuer_uri: ${ISSUER_URI}
-  client_id: ${CLIENT_ID}
-  client_secret: ${CLIENT_SECRET}
-  redirect_uri: ${REDIRECT_URI}
-  client_scopes: ${SCOPES}
-  plausible: ${PLAUSIBLE_URI}
+  issuer_uri: https://oidc.sandbox.bankid.cz/
+  client_id: 0c661f12-b6b8-4a15-a343-f19c7ea8ae78
+  client_secret: AOGPyjERp-HznpXw9dGlsoJ1JRhW8ysoaoG9dmdPGJ9EffaeIvoty75JqKXSRoz9J3PQV0RPs-ZZ20jjRWUKyK0
+  redirect_uri: https://e9af-109-245-115-107.ngrok-free.app/callback
+  client_scopes: "openid profile.name profile.email profile.phonenumber"
+  plausible:
 keystore:
-  file:  ${KEYSTORE_LOCATION}
-  #file:  "classpath:keystore-dev.jks"
-  password: ${KEYSTOTRE_PASSWORD}
+  file:  "classpath:keystore-dev.jks"
+  password: change-it
 
 file:
   path: "classpath:demo.sign-m.pdf"

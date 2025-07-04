@@ -1,0 +1,13 @@
+{
+	"keys": [
+		{
+			"kty": "EC",
+			"use": "sig",
+			"crv": "P-521",
+			"kid": "rp-sign",
+			"x": "ABrjwXAt5LDYpfb_iq3pmuu1v58a1xSYxMQ2w0SuUnM8UnkZwzBoWhm86xe_LHb1HvV13HugGv_-iAy6xSGkl6qk",
+			"y": "AOYiixdi57simzgCnVE932NPSIT3Jwbyk1Kx2oGMTPsanXFW1Iu0mCHwSbdALWHXQQmLg76XhzLdg2WPCN7Mn7Ix",
+			"alg": "ES512"
+		}
+	]
+}
